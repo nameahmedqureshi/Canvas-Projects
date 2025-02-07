@@ -1,0 +1,1092 @@
+/*
+Theme Name: Salient Child Theme
+Description: This is a custom child theme for Salient
+Theme URI:   https://themeforest.net/item/salient-responsive-multipurpose-theme/4363266
+Author: ThemeNectar
+Author URI:  https://themeforest.net/user/themenectar
+Template: salient
+Version: 1.0
+*/
+
+
+body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	background-color: #E39F55;
+}
+#footer-widgets .iconnn ul li a i:hover {
+    background: #cccc;
+    color: white;
+}
+#footer-widgets .iconnn ul li a i {
+    border: 1px solid;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 40px;
+    transition: 0.9s;
+    color: white;
+    background: linear-gradient(90deg, rgba(189,117,58,1) 0%, rgba(201,140,77,1) 34%, rgba(208,145,78,1) 100%);
+}
+#footer-widgets .iconnn ul li {
+    display: inline-block;
+    margin-right: 9px;
+}
+
+#footer-outer #footer-widgets .foot-secc li.eml:before {
+    content: "\f0e0";
+    font-family: 'FontAwesome';
+    position: absolute;
+    left: 0px;
+}
+#footer-outer #footer-widgets .foot-secc li.phn:before {
+    content: "\f095";
+    font-family: 'FontAwesome';
+    position: absolute;
+    left: 0px;
+}
+#footer-outer #footer-widgets .foot-secc li.mrk:before {
+    content: "\f041";
+    font-family: 'FontAwesome';
+    position: absolute;
+    left: 0px;
+}
+#footer-outer #footer-widgets .foot-secc li{
+margin-left: 30px;
+}
+div#footer-widgets .row {
+    border-bottom: 1px solid;
+    padding-bottom: 100px !important;
+    padding-top: 120px !important;
+}
+div#copyright {
+    padding: 15px 0px !important;
+}
+#footer-outer #copyright a:hover:not(.nectar-button) {
+    color: black !important;
+}
+div#page-header-wrap h1 {
+    FONT-FAMILY: 'FONT2';
+    text-transform: uppercase;
+}
+html body p, html body a, html body div,html body li {
+    font-family: font1;
+    opacity: 1 !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 26px !important;
+}
+
+header#top {
+    background-color: #312b2187;
+}
+
+header#top a {
+    text-transform: uppercase;
+}
+
+header#top ul li {
+    margin-right: 12px;
+}
+
+#top .current-menu-item a span {
+    border-bottom: 2px solid #E39F55;
+    position: relative;
+}
+
+#top .b1 a span {
+    background-color: #E39F55;
+    padding: 14px 57px 14px 30px !important;
+    border-radius: 10px !important;
+    background-image: url(https://devu10.testdevlink.net/Canyon_Park/wp-content/uploads/2024/07/Frame.png);
+    background-repeat: no-repeat;
+    background-position: 78% 50%;
+    transition: 0.9s;
+}
+div#custom_html-2 {
+    position: relative;
+    left: 120px;
+}
+div#nav_menu-2 {
+    position: relative;div#custom_html-2 {
+    position: relative;
+    left: 100px;
+}
+    left: 60px;
+}
+#sec1 h1 {
+    font-family: font2;
+    text-shadow: 0px 3px black;
+    text-transform: uppercase;
+}
+
+#sec1 h1 em {
+    font-style: normal;
+    font-size: 28px;
+    line-height: 38px;
+    font-family: 'font1';
+    font-weight: 400 !important;
+    text-shadow: unset !important;
+}
+
+#sec1 p,#sec1  p a {
+    font-size: 20px !important;
+    line-height: 30px !important;
+    padding-top: 10px;
+}
+
+#sec1 a.primary-color {
+    font-family: 'font2';
+    font-size: 16px;
+    line-height: 26px;
+    padding: 14px 50px 14px 30px !important;
+    border-radius: 10px !important;
+    background-image: url(https://devu10.testdevlink.net/Canyon_Park/wp-content/uploads/2024/07/Frame.png);
+    background-position: 84% 50%;
+    background-repeat: no-repeat !important;
+    transition: 0.9s;
+}
+#top a#logo img {
+    /* scale: 1.2; */
+    transform-origin: left;
+}
+html body h2 {
+    font-family: 'font2';
+    color: #39250F;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+html body h3 {
+    font-family: 'font1';
+    font-weight: 400;
+}
+
+#sec2  .c1 h3 {
+    padding-bottom: 10px !important;
+    text-transform: capitalize;
+}
+#sec2 li {
+    color: black !important;
+    opacity: 1 !important;
+}
+a#b1 {
+    font-family: 'font1';
+    font-size: 16px;
+    line-height: 26px;
+    padding: 14px 45px 14px 30px !important;
+    border-radius: 10px !important;
+    background-image: url(https://devu10.testdevlink.net/Canyon_Park/wp-content/uploads/2024/07/Frame.png);
+    background-position: 84% 50%;
+    background-repeat: no-repeat !important;
+    text-transform: uppercase;
+    transition: 0.69s;
+}
+#sec2 .c1 a#b1 {
+    margin-right: 10px;
+}
+a#b2 {
+    font-family: 'font1';
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 10px !important;
+    background-repeat: no-repeat !important;
+    text-transform: uppercase;
+    background-color: #39250F !important;
+    background-image: url(https://devu10.testdevlink.net/Canyon_Park/wp-content/uploads/2024/07/Group-451.png);
+    background-position: 6% 62%;
+    padding: 14px 30px 14px 44px !important;
+    transition: 0.9s;
+}
+a#b2 em {
+    font-style: normal;
+}
+div#sec3 {
+    padding-block: 120px 120px !important;
+}
+
+#sec1 .slide-bg-wrap:before {
+    content: '';
+    position: absolute;
+    background-image: url(https://devu10.testdevlink.net/Canyon_Park/wp-content/uploads/2024/07/Group-452.png);
+    width: 100%;
+    height: 108%;
+    z-index: 99;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 80%;
+    top: -40px;
+}
+a#b2:hover span {
+    padding-left: 10px;
+}
+a#b2 span {
+    transition: 0.9s;
+}
+div#sec3 .carousel-item {
+    background-color: #FDFBF2;
+    padding: 20px 20px 30px 20px !important;
+    border-radius: 10px !important;
+    filter: drop-shadow(0px 0px 3px #ccc);
+    margin: 0px 10px;
+    transition: 0.9s !important;
+    border: 4px solid transparent;
+}
+div#sec3 .carousel-item:hover {
+    background-color: #39250f !important;
+    border-color: #e39f55;
+}
+div#sec3 .carousel-item:hover .wpb_wrapper {
+    filter: brightness(0) invert(1);
+}
+div#sec3 .carousel-item .wpb_wrapper {
+    transition: 0.6s;
+}
+div#ajax-content-wrap {
+    background-color: #f9f4e6;
+}
+.container-wrap {
+    background-color: transparent !important;
+}
+div#sec3 .carousel-item h3 {
+    font-size: 23px;
+    line-height: 30px;
+}
+div#sec3 .carousel-item img {
+    height: 43px;
+    width: auto;
+    transition: 0.9s;
+    object-fit: cover;
+}
+div#sec2 {
+    padding-top: 120px !important;
+}
+#sec2 .row-bg-wrap:before {
+    content: '';
+    position: absolute;
+    background-image: url(https://devu10.testdevlink.net/Canyon_Park/wp-content/uploads/2024/07/Vector-12.png);
+    width: 1100px;
+    height: 640px;
+    background-size: cover;
+    right: -10px;
+    top: 110px;
+}
+
+#sec2 .c2 .img1 {
+    scale: 1.1;
+    transform-origin: left;
+}
+div#sec3 .carousel-item p {
+    height: 50px;
+}
+#sec3 .owl-stage {
+    PADDING: 6px 0px;
+}
+div#sec4:before {
+    content: '';
+    position: absolute;
+    background-image: url(https://devu10.testdevlink.net/Canyon_Park/wp-content/uploads/2024/07/Ellipse-1.png);
+    width: 1200px;
+    height: 1200px;
+    background-size: 100% 100%;
+    top: -300px;
+    right: -35%;
+    animation: 2s scale linear alternate infinite;
+}
+
+div#sec4 a#b1 {
+    margin: 0 auto;
+    display: table;
+}
+#sec4 h3 {padding-block: 20px 20px !important;text-transform: capitalize;}
+#sec4 p {
+    width: 70%;
+    margin: 0 auto;
+}
+#sec4 .carousel-item img {
+}
+
+#sec5 .carousel-item img {
+    margin: 0 auto !important;
+    display: table !important;
+}
+
+div#sec5 {
+}
+
+div#sec5 .owl-carousel.owl-theme {
+    width: 400px;
+    margin: auto;
+}
+
+div#sec5 {
+    padding-top: 30px !important;
+}
+
+div#sec6 {
+    padding-block: 100px 0px !important;
+}
+
+#sec6 .toggle {
+    border-top: 1px solid #39250f57;
+    margin-bottom: 0;
+}
+#sec6 .toggle>.toggle-title a i {
+    /* color: transparent; */
+    /* background-image: url(https://devu10.testdevlink.net/Canyon_Park/wp-content/uploads/2024/07/Vector-10.png); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* width: 20px; */
+    /* height: 10px; */
+    /* top: 20px; */
+}
+
+h3.toggle-title {}
+
+a.nectar-inherit-h4.toggle-heading {}
+
+#sec6 .toggle.default.open {
+    padding: 13px 0px !important;
+}
+
+#sec6 .toggle.default.open .toggle>.toggle-title a i {
+    rotate: 220deg !important;
+}
+
+#sec6 .toggle.default.open a.nectar-inherit-h4.toggle-heading {
+    padding-bottom: 7px;
+}
+
+div#sec7>.col {background-image: linear-gradient(to right, #EDE7D6, white);padding: 0px 30px 0px 80px !important;border-radius: 10px;filter: drop-shadow(0px 0px 1px #ccc);}
+
+#sec7 .c2 .img2 {
+    margin-top: -14%;
+    width: 90%;
+    margin-left: 70px;
+}
+
+#sec7 .c2:before {
+    content: '';
+    position: absolute;
+    background-image: url(https://devu10.testdevlink.net/Canyon_Park/wp-content/uploads/2024/07/Vector-8.png);
+    width: 102%;
+    height: 100%;
+    top: 0px;
+    right: -30px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footer-outer h4 {
+    font-family: font2;
+    text-transform: uppercase;
+    font-size: 20px !important;
+    line-height: 30px !important;
+    font-weight: 500 !important;
+    color: #39250f !important;
+}
+#sec1 .slide-bg-wrap {
+    opacity: 54% !important;
+}
+div#footer-outer {
+    background-color: transparent !important;
+}
+
+#footer-outer #footer-widgets .foot-secc li:before {color: transparent;-webkit-text-stroke: 1px #d0914e;font-size: 20px;}
+#sec6 .toggle>div {
+    background-color: transparent !important;
+    box-shadow: unset !important;
+}
+
+
+i.fa.fa-plus-circle {
+    content: '\f105';
+    font-size: 17px !important;
+}
+#sec6 .c2 .toggles.accordion h3.toggle-title {
+    background-color: transparent !important;
+}
+
+#sec6 .c2 a.nectar-inherit-h4.toggle-heading {
+    background-color: transparent !important;
+    color: #39250F !important;
+    position: relative !important;
+    font-size: 20px !important;
+    line-height: 30px !important;
+    text-transform: uppercase;
+}
+
+#sec6 .c2  .inner-toggle-wrap {background-color: transparent !important;padding-left: 42px;}
+
+
+div#copyright .col.span_5 {
+    max-width: 100% !important;
+}
+
+#top .b1 a span:hover, #sec1 a.primary-color:hover,a#b1:hover {
+    background-position: 88% 50%;
+}
+
+#sec6 .toggle i:before {
+    content: '\f104' !important;
+    font-family: fontawesome;
+    color: #B96E34 !important;
+    font-size: 20px;
+    position: relative;
+    left: -9px;
+}
+
+#sec6 .toggle i {
+    rotate: 270deg;
+    transition: 0.9s;
+}
+
+#sec6 .toggle.default.open i {
+    rotate: 90deg;
+}
+div#copyright div#text-2 {
+    float: left;
+}
+div#copyright div#text-3 {
+    float: right;
+}
+div#copyright {
+    background-color: transparent !important;
+}
+#sec6 .toggle.default.open i:before {
+    left: 9px;
+}
+a#b2:hover {
+    background-color: #E39F55 !important;
+}
+
+div#sec3 .carousel-item:hover h6 img {filter: brightness(0.5);}
+#sec2 .c1 h3 em {
+    font-style: normal;
+    text-decoration: underline;
+}
+
+div#sec7 h3 {
+    text-transform: capitalize;
+}
+div#sec7 {
+    margin-top: 120px;
+}
+#footer-outer div#nav_menu-2 {
+    column-count: 2;
+    width: 90%;
+}
+div#sec2:before {
+    content: '';
+    position: absolute;
+    background-image: url(https://devu10.testdevlink.net/Canyon_Park/wp-content/uploads/2024/07/Ellipse-1.png);
+    width: 1200px;
+    height: 1200px;
+    background-size: 100% 100%;
+    top: -100px;
+    left: 10%;
+    animation: 2s scale linear alternate infinite;
+}
+
+div#sec3:before {
+    content: '';
+    position: absolute;
+    background-image: url(https://devu10.testdevlink.net/Canyon_Park/wp-content/uploads/2024/07/Ellipse-1.png);
+    width: 1200px;
+    height: 1200px;
+    background-size: 100% 100%;
+    top: -100px;
+    left: -35%;
+    animation: 2s scale linear alternate infinite;
+}
+
+div#sec7:before {
+    content: '';
+    position: absolute;
+    background-image: url(https://devu10.testdevlink.net/Canyon_Park/wp-content/uploads/2024/07/Ellipse-1.png);
+    width: 1200px;
+    height: 1200px;
+    background-size: 100% 100%;
+    top: -250px;
+    right: -600px;
+    animation: 2s scale linear alternate infinite;
+    pointer-events: none !important;
+}
+@keyframes move{
+    0%{
+        transform:scale(1.2)
+    }
+     0%{
+        transform:scale(1.6)
+    }
+}
+
+div#sec7 h2 {
+    padding-bottom: 10px;
+}
+
+
+
+div#copyright div#text-3 p {
+    text-transform: capitalize;
+    word-spacing: 5px;
+}
+#footer-outer div#custom_html-3 {
+    float: right;
+}
+div#sec3 .carousel-item p {
+    font-size: 14px !important;
+    line-height: 24px !important;
+}
+#sec1 p a {
+    color: white;
+}
+.mission .c1 {
+    padding-block: 80px;
+}
+b, strong {
+    font-family: 'font1' !important;
+}
+#sec2 .icn, #ser2 .icn {
+    width: 80px;
+}
+#sec2 .iwithtext,#ser2 .iwithtext {
+    border: 1px solid #e39f55;
+    border-radius: 4px;
+}
+#sec2 .iwithtext .iwt-icon i, #ser2 .iwithtext .iwt-icon i {
+    color: white;
+    font-size: 25px !important;
+    line-height: 35px !important;
+}
+#sec2 .iwithtext .iwt-icon, #ser2 .iwithtext .iwt-icon {
+    height: 100%;
+    background: #e3a057;
+    padding: 43px 10px;
+}
+#sec2 .iwithtext .iwt-text, #ser2 .iwithtext .iwt-text {
+    padding: 10px 20px 10px 80px !important;
+}
+#ser2 a#b1 {
+    padding: 15px 20px !important;
+    background: unset;
+    margin-right: 10px;
+}
+#ser3 a#b1 {
+    background: unset;
+    margin-right: 10px;
+}
+#ser3 .icn {
+    width: 100px;
+}
+.ccc a#b1 {
+    margin: auto !important;
+    display: table;
+}
+header#top ul.sub-menu.tracked-pos li a {
+    border-radius: 5px;
+}
+#sec2 .c1 a#b1 {
+    background: unset;
+}
+.page-id-35 #sec6 a#b1 {
+    margin-right: 10px;
+    background: unset;
+}
+.page-id-37 #sec4 p {
+    margin: unset;
+    width: 100%;
+}
+#sec2 .c1 .tt1 h3 a {
+    font-size: unset !important;
+}
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 1920px) {}
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 1600px) {
+	#sec1 .slide-bg-wrap:before {
+    top: -13px;
+}
+	#sec2 .row-bg-wrap:before {
+    width: 1000px;
+    height: 630px;
+    right: -100px;
+    top: 130px;
+}
+
+#sec2 .c2 .img1 {
+    scale: 1;
+}
+}
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 1440px) {
+	#sec1 .slide-bg-wrap:before {
+    top: 0;
+}
+	
+
+#top ul li {
+    margin-right: 3px !important;
+}
+
+#top ul li a {
+    font-size: 14px !important;
+    line-height: 24px !important;
+}
+
+#sec2 .c2 .img1 {
+    scale: 1.1;
+}
+
+#sec2 .row-bg-wrap:before {
+    width: 900px;
+    height: 570px;
+    right: -100px;
+    top: 130px;
+}
+	.mission .c1 {
+    padding-block: 40px;
+}
+}
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 1366px) {
+	div#custom_html-2 {
+   
+    left: 100px;
+}
+	#top a#logo img {
+    scale: 1;
+}
+	
+
+p {}
+
+html body h1 {
+    font-size: 40px;
+    line-height: 50px;
+}
+
+#sec1 h1 em {
+    font-size: 25px;
+    line-height: 35px;
+}
+
+#sec1 p, #sec1  p a {
+    font-size: 18px !important;
+    line-height: 28px !important;
+}
+
+#sec2 .row-bg-wrap:before {
+    width: 810px;
+    height: 500px;
+    right: -100px;
+    top: 180px;
+}
+
+html body h2 {
+    font-size: 35px !important;
+    line-height: 45px !important;
+}
+
+#sec6 .c2 a.nectar-inherit-h4.toggle-heading {
+    font-size: 18px !important;
+    line-height: 28px !important;
+}
+
+#sec7 .c2 .img2 {
+    width: 94%;
+    margin-left: 60px;
+}
+
+#footer-outer div#media_image-2 img {
+    width: 80%;
+}
+	div#sec3 .carousel-item p {
+    height: 90px;
+}
+}
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 1340px) {}
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 1320px) {}
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 1280px) {
+	    div#custom_html-2 {
+      
+        left: 80px;
+    }
+	
+
+	header#top ul li {
+    margin-right: -10px !important;
+}
+	#footer-outer div#nav_menu-2 {
+    width: 100%;
+}
+	html body p, html body a, html body div, html body li {
+    font-size: 16px !important;
+    line-height: 26px !important;
+}
+
+html body h3 {
+    font-size: 20px !important;
+    line-height: 30px !important;
+}
+
+#sec2 .row-bg-wrap:before {
+    width: 740px;
+    height: 460px;
+}
+
+div#sec3 .carousel-item p {
+    height: 90px;
+}
+
+#sec6 .c2 a.nectar-inherit-h4.toggle-heading {
+    font-size: 20px !important;
+    line-height: 30px !important;
+}
+	
+}
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 1024px) {
+	div#custom_html-2 {
+    position: relative;
+   left: 60px;
+}
+
+	#footer-outer div#media_image-2 img {
+    width: 70%;
+}
+
+#footer-outer h4 {
+    font-size: 16px !important;
+    line-height: 18px !important;
+}
+
+div#footer-widgets .row {
+    padding-bottom: 90px !important;
+    padding-top: 110px !important;
+}
+	div#sec7>.col {
+    padding: 0px 30px 0px 20px !important;
+}
+	div#slide-out-widget-area a {
+    font-family: font1 !important;
+}
+	#footer-outer p,#footer-outer a {
+    font-size: 12px  !important;
+    line-height: 22px !important;
+}
+	a#b2:hover span {
+    padding-left: 5px;
+}
+	div#slide-out-widget-area a {
+    font-size: 18px 
+!important;
+    line-height: 28px !important;
+}
+
+html body h1 {
+    font-size: 30px !important;
+    line-height: 40px !important;
+}
+
+html body h2 {
+    font-size: 26px !important;
+    line-height: 36px !important;
+}
+
+div#sec2 {
+    padding-top: 80px !important;
+}
+
+#sec2 .row-bg-wrap:before {
+    width: 620px;
+    height: 360px;
+}
+
+div#sec3 {
+    padding-block: 80px 80px !important;
+}
+
+div#sec3 .carousel-item {
+    padding: 20px 10px 10px 10px !important;
+	!important;
+        margin: 0px 5px;
+}
+
+div#sec3 .carousel-item h3 {
+    font-size: 17px !important;
+    line-height: 27px !important;
+}
+
+div#sec3 .carousel-item p {
+    height: 100px;
+}
+
+#sec4 h3 {
+    padding-block: 10px 10px !important;
+}
+
+#sec4 p {
+    width: 90%;
+}
+
+div#sec6 {
+    padding-block: 60px 0px !important;
+}
+
+#sec6 .c2 a.nectar-inherit-h4.toggle-heading {
+    font-size: 16px !important;
+    line-height: 26px !important;
+}
+
+#sec7 .c2 .img2 {
+    width: 100%;
+    margin-left: 50px !important;
+}
+	#footer-outer p, #footer-outer a {
+    font-size: 14px !important;
+    line-height: 24px !important;
+}
+}
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 840px) {
+	    div#custom_html-2 {
+        position: unset;
+     
+    }
+	#footer-outer div#custom_html-3 {
+    float: unset;
+}
+	    #footer-outer div#nav_menu-2 {
+       
+        position: unset;
+    }
+	#sec1 .buttons {
+    padding-top: 20px !important;
+}
+	#sec2 .c1 a#b1,#sec2 .c1 a#b2 {
+    margin: 0 auto;
+    display: table;
+    margin-bottom: 10px;
+}
+	
+#footer-outer p, #footer-outer a {
+    font-size: 16px !important;
+    line-height: 26px !important;
+}
+	div#sec3 .carousel-item h6 img {
+    margin: 0 auto;
+}
+	#sec1 h1 em {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+#sec1 p,#sec1  p a {
+    font-size: 14px !important;
+    line-height: 24px !important;
+}
+
+#sec1 a.primary-color {
+    font-size: 14px !important;
+    line-height: 24px !important;
+}
+
+div#sec2 {
+    padding-top: 50px !important;
+}
+
+div#sec2 h2, div#sec2 h3,div#sec2 p {
+    text-align: center;
+}
+
+html body h3 {
+    font-size: 18px !important;
+    line-height: 28px !important;
+}
+
+#sec2 .c2 .img1 {
+    scale: 1;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#sec2 .c2 {
+    padding-top: 40px;
+}
+
+#sec2 .row-bg-wrap:before {
+    display: none;
+}
+
+div#sec3 {
+    padding-block: 70px 50px !important;
+    text-align: center;
+}
+
+div#sec3 .carousel-item p {
+    height: 100px;
+}
+
+#sec3 .owl-dots {
+    margin-top: 0;
+    transform: translateY(16px);
+}
+
+div#sec6 {
+    padding-block: 30px 0px !important;
+}
+
+div#sec6 .c1 {
+    text-align: center;
+}
+
+div#sec7 {
+    margin-top: 80px;
+}
+
+div#sec7>.col {
+    padding: 30px 30px 0px 30px !important;
+}
+
+div#sec7 .c1 {
+    text-align: center;
+}
+
+#sec7 .c2 .img2 {
+    width: 70%;
+    margin: 0 auto;
+    margin-left: 0;
+}
+
+#footer-outer div#media_image-2 img {
+    width: 80%;
+}
+header#top {
+    background-color: transparent;
+}
+#footer-outer #footer-widgets .foot-secc {
+    position: relative;
+}
+	div#copyright div#text-2,div#copyright div#text-3 {
+    float: unset;
+}
+
+#footer-outer #copyright[data-layout="centered"] .col.span_5 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+		#sec1 h1 {
+    font-size: 30px !important;
+    line-height: 40px !important;
+}
+	    #footer-outer h4 {
+        font-size: 20px !important;
+        line-height: 20px !important;
+    }
+}
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 768px) {}
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 525px) {
+	div#sec3 .carousel-item h3 {
+    font-size: 22px !important;
+    line-height: 27px !important;
+    padding-top: 10px;
+}
+	div#footer-widgets .row {
+    padding-bottom: 40px !important;
+    padding-top: 100px !important;
+}
+	
+
+	div#sec5 .owl-carousel.owl-theme {
+    width: auto !important;
+}
+	html body h1 {
+    font-size: 25px !important;
+    line-height: 35px !important;
+}
+
+
+#sec5 .carousel-item img {
+    margin: 0 auto;
+    display: table;
+}
+#sec1 h1 em {
+    font-size: 13px;
+    line-height: 27px !important;
+}
+
+#sec1 h1 {
+    font-size: 25px !important;
+    line-height: 35px !important;
+}
+
+#sec2 .c1 a#b1 {
+}
+
+
+
+#footer-outer div#media_image-2 img {
+    width: 50%;
+}
+	#sec2 .c1 a#b1,#sec2 .c1 a#b2 {
+    margin: 0 auto;
+    display: table;
+    margin-bottom: 10px;
+}
+}
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 430px) {
+
+
+html  body h2 {
+    font-size: 22px !important;
+    line-height: 32px !important;
+}
+
+
+
+#sec2 .c2 {
+    padding-top: 0;
+}
+
+#sec4 p {
+    width: 100%;
+}
+
+div#sec7 {
+    margin-top: 40px;
+}
+
+html body h2 br {
+    display: none;
+}
+	div#copyright div#text-3 p {
+    word-spacing: 0;
+}
+	div#sec3 .carousel-item p {
+    font-size: 14px !important;
+    line-height: 24px !important;
+}
+}
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 375px) {}
+/*-----------------------------------------------------------------------------------------------------*/
+@media (max-width: 360px) {}

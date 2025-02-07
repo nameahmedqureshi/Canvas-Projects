@@ -1,0 +1,860 @@
+/* Tabs */
+.tabs {
+  width: 100%;
+}
+form.booking_form .service_detail img {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+form.booking_form input.button {
+    text-transform: capitalize !important;
+}
+    .booking_form .input_field input.close.button {
+        margin: 0px;
+        text-transform: uppercase !important;
+        font-weight: 500;
+    }
+ul#tabs-nav {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+  overflow: auto;
+}
+.tabs ul#tabs-nav {
+  margin: auto;
+  display: flex;
+  background: transparent;
+  justify-content: center;
+}
+form.booking_form {
+  padding: 30px 10px 30px 40px;
+}
+.cart_icon label i {
+  COLOR: #c38e36;
+  FONT-SIZE: 25PX;
+}
+div#special_Modal .form-box {
+max-width: 40%;
+}
+.main_service_box h2 {
+  min-height: 70px !important;
+  FONT-SIZE: 23PX;
+	font-family: 'font2' !important;
+}
+form.booking_form
+.cart_icon i {
+font-size: 25px;
+color: #d4ac4f;
+}
+input#special_service_cart {
+display: none;
+}
+.cart_icon input:checked + label i::before {
+content: "\f00c";
+}
+input#main_service_cart {
+display: none;
+}
+.cart_icon label {
+cursor: pointer;
+}
+#myModal a {
+color: #000;
+text-decoration: underline;
+font-weight: 600;
+}
+.login_form input {
+width: 47% !important;
+margin: auto;
+display: table;
+}
+.services_sec {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-bottom: 180px;
+}
+.pricing h3, .pricing h5 {
+  font-weight: 600;
+  background: var(--g1);
+  background-size: 200% 200%;
+  animation: scroll 5000s infinite linear;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-bottom: 0;
+  font-weight: 900 !important;
+}
+.main_service_box:hover {
+  border-color: var(--c);
+  background: white;
+  border-bottom: 8px solid #c5a543;
+}
+.main_service_box {
+  width: 48%;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.5s;
+  position: relative;
+  margin: 10px 5px;
+  cursor: pointer;
+}
+.tabs ul#tabs-nav li {
+    list-style: none !important;
+    background: #000;
+    margin: 30px 20px;
+    width: 157px;
+    text-align: center;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tabs ul#tabs-nav li.active {
+  font-weight: 600;
+  background: var(--g1);
+  background-size: 100% 100%;
+  animation: scroll 4000s infinite linear;
+}
+#tabs-nav li a {
+  text-decoration: none;
+  color: #FFF;
+}
+.tab-content {
+  padding: 10px;
+  /* border: 5px solid #09F; */
+  /* background-color: #FFF; */
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  margin: 8% auto;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* end */
+
+/* register form */
+.form-box .close {
+  right: 3%;
+  top: 3%;
+  font-size: 19px;
+  z-index: 9999;
+}
+.form-container input {
+width: 47% !important;
+}
+.form-container .birthday {
+  width: 100% !important;
+}
+
+.form-box {
+  max-width: 30%;
+  background: #f1f7fe;
+  overflow: hidden;
+  border-radius: 16px;
+  color: #010101;
+}
+.main_service_box img {
+width: 240px !important;
+height: 150px !important;
+object-fit: contain;
+object-position: center;
+MARGIN-BOTTOM: 0 !important;
+}
+
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 24px 24px;
+  gap: 16px;
+  text-align: center;
+}
+
+/*Form text*/
+.title {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #666;
+}
+
+/*Inputs box*/
+form.booking_form select {
+    color: black !important;
+}
+form.booking_form input {
+    color: black !important;
+}
+form.booking_form input::placeholder {
+    color: black;
+}
+textarea#client_requests {
+    color: black !important;
+}
+div#card-element, div#card-element1 {
+    color: black !important;
+}
+div#card-element::placeholder {
+    color: black !important;
+}
+.register_form select {
+    width: 47% !important;
+    font-size: 14px !important;
+    color: black !important;
+    margin: 6px !important;
+    height: 40px !important;
+    padding: 6px !important;
+}
+.register_form .input_field.panther_id {
+    width: 47%;
+}
+.register_form .input_field.panther_id input.input_space {
+    width: 100% !important;
+    height: 40px;
+}
+.register_form select#type option {
+    font-size: 14px !important;
+}
+.register_form .input_field.select_option.Cassification {
+    width: 50%;
+}
+.register_form .input_field.select_option.Cassification select#classification {
+    margin: 6px 6px 6px 19px !important;
+    font-size: 14px !important;
+    color: black;
+    width: 95% !important;
+}
+.register_form select#classification option {
+    font-size: 14px !important;
+}
+input#password-field1 {
+    height: 40px;
+    width: 99% !important;
+}
+.register_form i.fa-solid {
+    top: 15px;
+}
+.register_form input.input::placeholder {
+    color: black !important;
+}
+.register_form .input_field.panther_id input.input_space::placeholder {
+    color: black;
+}
+.form-container input {
+  margin: 6px 7px;
+}
+.form-container {
+  overflow: hidden;
+  border-radius: 8px;
+  margin: 1rem 0 .5rem;
+  width: 100%;
+  display: flex;
+  /* gap: 2px; */
+  flex-wrap: wrap;
+}
+
+.input {
+  background: none;
+  border: 0;
+  outline: 0;
+  height: 40px;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  font-size: .9rem;
+  padding: 8px 15px;
+}
+
+.form-section {
+  padding: 16px;
+  font-size: .85rem;
+  background-color: #e0ecfb;
+  box-shadow: rgb(0 0 0 / 8%) 0 -1px;
+}
+
+.form-section a {
+  font-weight: bold;
+  color: #0066ff;
+  transition: color .3s ease;
+}
+
+.form-section a:hover {
+  color: #005ce6;
+  text-decoration: underline;
+}
+form button {
+  padding: 15px 30px !important;
+}
+.register_form i.fa-solid {
+  position: absolute;
+  right: 6px;
+  top: 12px;
+}
+.login_form i.fa-solid {
+  position: absolute;
+  right: 6px;
+  top: 12px;
+}
+input#password-field2 {
+  width: 100% !important;
+}
+
+.auth-reset-password-form i.fa-solid {
+  position: absolute;
+  right: 20px;
+  top: 12px;
+}
+
+.input-group.input-group-merge {
+  position: relative;
+}
+ .password_div {
+  position: relative;
+  width: 48%;
+}
+
+.password_div  input{
+  width: 100% !important;
+}
+
+/*Button*/
+.form button {
+  background-color: #000000;
+  color: #fff;
+  border: 0;
+  border-radius: 24px;
+  padding: 10px 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color .3s ease;
+}
+
+/* .form button:hover {
+  background-color: #005ce6;
+} */
+/* end */
+html body div#reg h2 {
+    margin-bottom: 20px;
+}
+div#reg img {
+  height: 420px;
+  object-fit: cover;
+  object-position: center;
+}
+div#reg .col.span_7 {
+  padding: 20px;
+}
+div#reg p {
+  margin-top: 20px;
+}
+section.service_inner {
+  padding: 50px 0px;
+}
+div#reg .pricing > div {
+  width: 10%;
+  min-width: 130px;
+}
+div#reg {
+  display: flex;
+}
+div#reg .pricing {
+  display: flex;
+}
+.booking_form .input_field {
+  margin-bottom: 10px;
+}
+th {
+  background: #000;
+  color: #fff;
+}
+.booking_form {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* select#type {
+  width: 100%;
+  margin: 0px 6px !important;
+} */
+.booking_form input.button {
+  width: 100%;
+  margin: unset;
+  color: #000;
+}
+div#example_wrapper {
+  margin-top: 40px;
+}
+.booking_form select {
+  width: 100%;
+}
+textarea#client_requests {
+  width: 100%;
+}
+.Make_Model_Year .input_field {
+  margin: 10px 10px 10px 0px !important;
+}
+select#dt-length-0 {
+  width: 40%;
+}
+div#reg .form_container {
+  padding: 20px 0px 20px 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 0px 5px 0px #80808082;
+}
+#s2 .d-flex .cart_icon {
+  position: absolute;
+  right: 2%;
+}
+.Make_Model_Year {
+  display: flex;
+  justify-content: space-between;
+}
+/* .cart_icon {
+  width: 100%;
+} */
+.Make_Model_Year input {
+  margin: 0px 0px !important;
+  width: 95% !important;
+}
+section.service_inner img {
+  width: 500px !important;
+  height: 360px !important;
+  object-fit: cover;
+  object-position: center;
+}
+
+.booking_form input {
+  margin: 0px 30px 0px 0px;
+  width: 100% ;
+}
+div#tab2 .cart_icon input {
+  display: none;
+}
+.input_space {
+  width: 97% !important;
+}
+.booking_form .input_field {
+  margin: 0 !important;
+  margin-bottom: 10px !important;
+}
+/* .special_service_cart {
+  display: none;
+} */
+div#tab1 .cart_icon input {
+  display: none;
+}
+.trash {
+  top: 4px !important;
+}
+input.close.button {
+  padding: 13px 0px !important;
+  margin: 0px -10px;
+  background: #f2e47c;
+  font-weight: 400;
+}
+.trash {
+  cursor: pointer;
+}
+.book_service_details {
+  display: flex;
+  padding: 0px 50px 0px 30px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #80808057;
+  margin-bottom: 5px;
+}
+
+/* .book_service_details img {
+width: 50px;
+} */
+
+.book_service_details img {
+  width: 50px !important;
+  height: 50px !important;
+  margin-bottom: 0 !important;
+  object-fit: contain;
+}
+div#card-element, div#card-element1 {
+  width: 100%;
+  margin-bottom: 20px;
+  background: #e8edf4;
+  padding: 17px;
+  border-radius: 4px;
+}
+.booK_pricing {
+display: flex;
+width: 100%;
+}
+
+.book_service_details h1 {
+  font-size: 17px;
+  width: 39%;
+  line-height: 30px;
+  font-family: 'font2' !important;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+.booK_pricing p {
+font-size: 13px;
+text-align: left;
+margin: 0px 10px;
+padding-bottom: 0 !important;
+margin-bottom: 0 !important;
+}
+.service_detail {
+/* padding-top: 35px; */
+width: 100%;
+}
+
+.booK_pricing p span {margin: 0px 6px;font-weight: 600;font-size: 16px;}
+
+div#special_Modal .form-box {
+max-width: 40%;
+}
+/* div#reg .col.span_3 {margin: 0px 50px;} */
+@media (max-width: 1600px) {
+  .form-box {
+    max-width: 40%;
+}
+}
+@media (max-width: 1440px) {
+	.services_sec {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 136px;
+}
+}
+@media (max-width: 1366px) {
+  .form-box {
+    max-width: 45%;
+} 
+}
+@media (max-width: 1280px) {
+.main_service_box h2 {
+    min-height: 51px !important;
+    FONT-SIZE: 19PX !important;
+    font-family: 'font2' !important;
+}
+}
+@media (max-width: 1024px) {
+
+#s2 .d-flex .cart_icon {
+    position: absolute;
+    right: 1%;
+}
+	#s2 .d-flex .single_price {
+    width: 100%;
+    text-align: left;
+}
+.main_service_box img {
+    width: 240px !important;
+    height: 111px !important;
+    object-fit: contain;
+    object-position: center;
+    MARGIN-BOTTOM: 0 !important;
+}
+    .main_service_box h2 {
+        min-height: 28px !important;
+        FONT-SIZE: 16PX !important;
+        font-family: 'font2' !important;
+        line-height: 25px;
+    }
+  .form-box {
+    max-width: 55%;
+} 
+}
+@media (max-width: 840px) {
+	div#special_Modal .form-box {max-width: 90%;}
+.single_box p {
+    width: 91% !important;
+}
+	form.booking_form input.button {
+    text-transform: capitalize !important;
+    font-size: 16px !important;
+}
+	.book_service_details {
+        padding-left: 0px;
+        display: block !important;
+    }
+	.login_form i.fa-solid {
+    position: absolute;
+    right: 6px;
+    top: 16px;
+}
+	form.form.login_form .input {
+    min-width: 100% !important;
+    margin: 10px 0px;
+}
+.register_form .form-container input {
+    width: 100% !important;
+}
+	.register_form select {
+    width: 100% !important;
+}
+.register_form .input_field.panther_id {
+    width: 100%;
+}
+.register_form .input_field.select_option.Cassification select#classification {
+    margin: 6px 6px 6px 6px !important;
+    width: 100% !important;
+}
+	.register_form .input_field.panther_id input.input_space {
+    width: 97.5% !important;
+    height: 40px;
+}
+	.register_form .input_field.select_option.Cassification {
+    width: 100%;
+}
+	.register_form .input_field.select_option.Cassification select#classification {
+    width: 98% !important;
+}
+	.password_div {
+    position: relative;
+    width: 100%;
+}
+	    .main_service_box img {
+        width: 100% !important;
+        height: 111px !important;
+        object-fit: cover;
+        object-position: center;
+        MARGIN-BOTTOM: 0 !important;
+    }
+  .form-box {
+    max-width: 65%;
+} 
+form.booking_form input {
+  width: 100% !important;
+}
+form.booking_form select {
+  width: 100% !important;
+}
+.Make_Model_Year.span_12 .input_field:nth-child(2) {
+  width: 19%;
+}
+	    .services_sec {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-bottom: -19px;
+    }
+}
+@media (max-width: 525px) {
+	.book_service_details {
+    padding-left: 0px;
+    padding-right: 0px !important;
+    width: 100% !important;
+}
+	.register_form select#type {
+    margin: 6px 4px !important;
+}
+
+.register_form .input_field.select_option.Cassification select#classification {
+    margin: 6px 4px !important;
+}
+
+input#password-field1 {
+    width: 99% !important;
+}
+  .single_price {
+    width: 82%;
+}
+  div#reg {
+    display: block;
+}
+  form.booking_form input.button {
+    width: 100% !important;
+    font-size: 15px !important;
+    padding: 16px 0px !important;
+}
+  input.close.button {
+    margin-right: 0px;
+    opacity: 1 !important;
+}
+  button.btn.btn-primary.forget_pass {
+    width: 30%;
+}
+  button.btn {
+    width: 68%;
+    font-size: 14px !important;
+}
+  .auth-reset-password-form {
+    padding: 20px;
+}
+  .form-check label.form-check-label {
+    width: 51%;
+    text-align: left;
+}
+  form.form.login_form .input {
+    width: 45% !important;
+}
+  .register_form .form-container input {
+    margin: 6px 4px;
+}
+  form.booking_form {
+    padding: 20px 10px 30px 10px;
+}
+  .book_service_details {
+    display: inline-grid;
+    padding: 0px 50px 0px 30px;
+}
+  .book_service_details h1 {
+    font-size: 17px;
+    width: 49%;
+    line-height: 30px;
+    font-family: 'font2' !important;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+    div#special_Modal .form-box {
+        max-width: 101%;
+        position: relative;
+        z-index: 9999 !important;
+    }
+  .main_service_box {
+    width: 100% !important;
+    margin: auto;
+    margin-bottom: 20px;
+}
+  .booking_form .input_field {
+    width: 48% !important;
+    margin: 10px 3px !important;
+  }
+  .main_service_box .d-flex {
+    gap: 0px 19px !important;
+}
+  .main_service_box h2 {
+    min-height: 30px !important;
+    FONT-SIZE: 23PX;
+}
+  .main_service_box .d-flex {
+    gap: 0px 22px !important;
+}
+  .main_service_box img {
+    object-fit: cover;
+    object-position: center;
+}
+  .tabs ul#tabs-nav li {
+    margin: 30px 10px;
+}
+  .Make_Model_Year.span_12 .input_field:nth-child(2) {
+    width: 58%;
+    /* margin: 0px 8px !important; */
+}
+  form.booking_form {
+    padding: 20px 10px 30px 20px;
+}
+.input_field.span_12 {
+  width: 100% !important;
+}
+	.booking_form .pickup label, .tip_div label {
+    font-size: 14px;
+}
+	.booking_form .input_field.span_6.tip_div {
+    width: 100% !important;
+}
+.form-box {
+  max-width: 85%;
+}
+}
+@media (max-width: 480px) {
+	.register_form select#type {
+    width: 47%;
+}
+.register_form .input_field.select_option.Cassification {
+    width: 100%;
+}
+	.booking_form .pickup label, .tip_div label {
+    font-size: 13px;
+}
+.booking_form .input_field.span_12 span {
+    font-size: 13px;
+}
+}
+@media (max-width: 430px) {
+	.register_form {
+    width: 100% !important;
+}
+.register_form select#type {
+    width: 100%;
+}
+.register_form .input_field.panther_id {width: 100%;}
+.register_form .input_field.select_option.Cassification {
+    width: 100%;
+}
+.register_form .form-container input {width: 100% !important;}
+
+.password_div {width: 100%;}
+}
+.booking_form .pickup label, .tip_div label {
+        font-size: 13px;
+        display: inline-table;
+    }
+@media (max-width: 414px) {
+	form.booking_form input.button {
+    font-size: 12px !important;
+}
+  .single_price {
+    width: 60%;
+}
+  #s2 .d-flex {
+    display: flex;
+    text-align: center;
+    gap: 0px 30px;
+    width: 80%;
+}
+  .main_service_box {
+    width: 91%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+  .tabs ul#tabs-nav li {
+    margin: 30px 3px;
+}
+  .form-box {
+    max-width: 95%;
+} 
+.booking_form .input_field {
+  width: 47% !important;
+  margin: 10px 3px !important;
+}
+.Make_Model_Year.span_12 .input_field:nth-child(2) {
+  margin: auto !important;
+}
+.input_field.span_12 {
+  width: 100% !important;
+}
+}

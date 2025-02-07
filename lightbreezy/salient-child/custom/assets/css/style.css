@@ -1,0 +1,204 @@
+div#service_booking input {margin-bottom: 23px;color: #555 !important;background: white !important;border: 1px solid;border-radius: 21px;height: 44px; font-family: 'f2';}
+
+div#service_booking select {margin-bottom: 23px;color: #555 !important;background: white !important;border-radius: 21px;height: 44px;opacity: 1;}
+
+
+div#service_booking .dna_service input {margin-bottom: 0px;height: 31px;position: relative;top: 10px;}
+
+
+div#service_booking select option {
+    color: #676767 !important;
+}
+
+div#service_booking label {
+    color: black;
+	font-family: 'f2';
+}
+div#service_booking .price span {
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+	font-family: 'f2';
+}
+
+div#service_booking textarea#client_requests {
+    margin-bottom: 23px;
+    color: #555 !important;
+    background: white !important;
+/*     border: none; */
+    border-radius: 21px;
+}
+
+div#service_booking div#card-element {
+    margin-bottom: 23px;
+    color: #555 !important;
+    background: white !important;
+/*     border: none; */
+    border-radius: 21px;
+    height: 44px;
+}
+
+div#service_booking button.button {
+    background-color: #ea6783;
+    font-family: f2;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 14px 95px !important;
+    opacity: 1 !important;
+    transition: 0.9s;
+    border-radius: 0px !important;
+}
+
+div#service_booking input[type="checkbox"]:checked {
+    BACKGROUND: BLACK !IMPORTANT;
+}
+
+
+div#booking_services .col.span_6 {
+  margin: unset;
+}
+
+.service_box {
+  padding: 30px 30px 0px 30px;
+  background: #000000ad;
+  min-height: 835px;
+  border: 2px dashed #fff;
+  text-align: center;
+  color: #fff;
+}
+input.button {
+  margin-top: 20px;
+  width: 10%;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+div#forget {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+div#forget .col.span_6 {
+  margin: auto !important;
+  display: table !important;
+  width: 100% !important;
+}
+form.service_order .col.span_4 {
+  width: 31.3% !important;
+}
+form.service_order .col.span_6 {
+  width: 48% !important;
+}
+.price {
+  margin-bottom: 20px;
+}
+select#service {
+  background: transparent;
+  border: 1px solid;
+  padding-bottom: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6px;
+}
+textarea#client_requests {
+  background: transparent;
+  border: 1px solid;
+  margin-bottom: 20px;
+}
+div#service_booking button.button {
+  margin-top: 20px;
+}
+div#register, #login, #forget, #reset_form, div#profile_edit {
+  border: 2px solid #ea6783;
+  padding: 30px;
+  border-radius: 15px !important;
+  font-family:f2;
+}
+div#card-element {
+  padding: 16px;
+  background: transparent;
+  border: 1px solid;
+}
+p.account a {
+  margin-left: 10px;
+}
+
+form.service_order input.button {
+  background: #ea6783 !important;
+  border: 1px solid #ea6783 !important;
+}
+.reset input#verification-code {
+  width: 98% !important;
+}
+div#register input.button, div#login input.button, div#forget input.button, div#reset_form input.button, div#profile_edit input.button {
+  background: #ea6783 !important;
+  border: #ea6783 !important;
+}
+section.services {
+  background: #ea6783;
+  padding: 60px 0px;
+}
+form.service_booking input {
+  background: transparent;
+  border-bottom: 2px solid #ea6783;
+  margin-bottom: 20px;
+  border-radius: 0px 0px 10px 10px;
+}
+section.register {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+section.register input {
+  margin-bottom: 20px;
+}
+.service_box img {
+  width: 440px !important;
+  height: 440px !important;
+  margin: auto;
+  display: table;
+  object-fit: cover;
+  object-position: top;
+}
+form.service_booking select {
+  background: transparent;
+  border-bottom: 2px solid #ea6783;
+  margin-bottom: 20px;
+  border-radius: 0px 0px 10px 10px;
+}
+/* div#service_booking {
+  border: 2px solid #ea6783;
+  padding: 30px;
+  border-radius: 15px !important;
+} */
+form.service_booking {
+  display: flex;
+  flex-wrap: wrap;
+}
+.read_more:hover {
+  color: #fff;
+}
+.service_box h3 {
+  color: #fff;
+}
+div#service_inner {
+  padding: 60px 0px !important;
+}
+.service_box p {
+  min-height: 200px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.read_more  {
+  background-color: #ea6783;
+  font-family: f2;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 14px 40px;
+  transition: 0.9s;
+  color: #fff;
+  cursor: pointer;
+  border: unset !important;
+}
+.service_box h3 {
+  min-height: 40px;
+}

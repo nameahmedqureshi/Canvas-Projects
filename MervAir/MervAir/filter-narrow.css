@@ -1,0 +1,56 @@
+/* CSS Document */
+
+.progress {
+	display: none;
+}
+
+.progress li {
+	text-indent: -9999;
+}
+
+.progress li strong {
+	text-indent: 0;
+}
+
+form.filter-form {
+	width: auto !important;
+}
+
+.filter-size {
+	display: block !important;
+}
+
+.filter-types {
+	display: block !important;
+}
+
+.filter-type {
+	width: auto !important;
+	margin: 0 0 3rem;
+}
+
+
+.summary .columns {
+	display: block !important;
+}
+
+.order-details, .complete-purchase {
+	width: auto !important;
+	margin-bottom: 3rem;
+}
+
+.complete-purchase img {
+	margin: 0 0 3rem;
+}
+
+.filter-label {
+	/*
+	background: #2e3a8b;
+	color: white;
+	margin: 0 0 1.5rem;
+	*/
+}
+
+select {
+	margin: 0 0 1rem !important;
+}

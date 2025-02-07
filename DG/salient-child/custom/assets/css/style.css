@@ -1,0 +1,313 @@
+.comment_box.main_box p::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  .comment_box.main_box p::-webkit-scrollbar-track {
+    background: rgba(0,0,0,.1); 
+  }
+   
+  .comment_box.main_box p::-webkit-scrollbar-thumb {
+    background: #092052;
+      border-radius:5px
+  }
+  
+  .comment_box.main_box p::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  .video_comment::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  .video_comment::-webkit-scrollbar-track {
+    background: rgba(0,0,0,.1); 
+  }
+   
+  .video_comment::-webkit-scrollbar-thumb {
+    background: #e8cad2;
+      border-radius:5px
+  }
+
+  .video_comment::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+.item.slick-slide {position: relative;margin: 0px 10px;}
+
+.item.slick-slide .video_title {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+}
+.video_desc h2 {
+    text-transform: uppercase;
+    font-size: 100px;
+    line-height: 110px;
+    font-weight: 400;
+}
+button.comment_submit {
+    margin-top: 20px;
+}
+.clicked {
+    color: #fb4e00;
+}
+.row.video_comment textarea {
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    resize: unset;
+    padding: unset;
+}
+.row.video_detail .video_rating {
+    float: inline-end;
+}
+.row.video_detail {
+    padding-top: 50px;
+}
+.comment_box textarea {
+    background: transparent !important;
+    border-bottom: 1px solid #fff !important;
+}
+.material.woocommerce-page[data-form-style=default] input#coupon_code, input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea {
+    border: unset !important;
+}
+.row.video_comment .col.span_3 {
+    width: 5%;
+    margin-right: 0;
+}
+.row.video_comment img {
+    width: 60px !important;
+    border-radius: 50px;
+}
+.slick-arrow::before {
+    font-size: 39px !important;
+}
+.video_box img {
+    width: 100%;
+}
+div:where(.swal2-icon) {
+    margin: 2.5em auto .6em !important;
+    border: 2px solid !important;
+}
+.slick-prev {
+    left: -34px !important;
+}
+h2#swal2-title {
+    color: #000 !important;
+    padding: unset !important;
+}
+.lightbox-container {
+    position: relative;
+  }
+  .row.video_detail .video_rating i {
+    margin: 0px 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+  
+  .video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .video {
+    width: 100%;
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 3em;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+
+  form#add_comment {
+    display: flex;
+    justify-content: start;
+}
+
+.comment_option .comment_box input[type="text"] {
+    width: 30%;
+    margin: 0px 10px;
+    padding: 10px 10px !important;
+    background: transparent !important;
+    border-bottom: 1px solid #fff !important;
+    color: #ffff;
+    border-radius: unset !important;
+}
+
+.comment_option .comment_box input[type="text"]::placeholder {
+    color: #fff !important;
+    opacity: 1 !important;
+}
+
+.span_12.light input[type=date]:focus, .span_12.light input[type=email]:focus, .span_12.light input[type=password]:focus, .span_12.light input[type=search]:focus, .span_12.light input[type=tel]:focus, .span_12.light input[type=text]:focus, .span_12.light input[type=url]:focus, .span_12.light select:focus, .span_12.light textarea:focus {
+    border-bottom: 1px solid #fff !important;
+    border-color: unset !important;
+    box-shadow: unset !important;
+}
+
+.material.woocommerce-page[data-form-style=default] input#coupon_code, input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea {border-bottom: 1px solid #fff;border-radius: unset !important;}
+
+.comment_option .comment_box textarea {
+    margin: 0px 30px;
+    width: 50%;
+    padding: 10px;
+}
+
+body .comment_option .comment_box button.comment_submit {
+    background: #fff;
+    color: #000;
+    width: 20%;
+}
+.comments_show {
+    display: flex;
+    background: #000;
+    padding: 50px 60px;
+    width: 100%;
+    border-radius: 12px;
+    MARGIN-TOP: 40PX;
+    FLEX-WRAP: wrap;
+    height: 640px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.reviews {
+    width: 100%;
+    background: #ff6289;
+    margin: 0px 10px;
+    margin-bottom: 40px !important;
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 3px 0px #ffffff4f;
+}
+.reviews .col.span_3 {
+    width: 6% !important;
+}
+.reviews .col.span_9 {
+    width: 92%;
+}
+.comment_option .comment_box input[type="text"] {
+    border-bottom: 1px solid;
+}
+.reviews h4 {
+    color: #ffffff  !important;
+}
+.reviews p {
+    COLOR: #ffffff !important;
+}
+.reviews img {
+    WIDTH: 50PX !IMPORTANT;
+}
+.video_box img {
+    width: 450px !important;
+    height: 450px !important;
+    object-fit: cover;
+    object-position: top !important;
+}
+.comment_box.main_box p {
+    height: 85px;
+    overflow: scroll;
+    padding: 10px;
+    width: 100%;
+    overflow-x: hidden;
+}
+.slick-slide {
+    cursor: pointer;
+}
+body::-webkit-scrollbar {
+    width: 0.4em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);
+}
+@media (max-width: 1600px) {
+    .reviews .col.span_3 {
+        width: 6% !important;
+    }
+    .comments_show {
+        width: 100%;
+    }
+}
+@media (max-width: 1366px) {
+    .row.video_comment .col.span_3 {
+        width: 5%;
+        margin-right: 8px;
+    }
+}
+
+  @media (max-width: 840px) {
+    .reviews .col.span_3 {
+        width: 16% !important;
+    }
+    .row.video_comment .col.span_3 {
+        width: 10%;
+        margin-bottom: 0;
+    }
+    .video_desc h2 {
+        font-size: 42px !important;
+    }
+    
+  }
+  @media (max-width: 480px) {
+    form#add_comment {
+        display: block;
+    }
+    .reviews .col.span_3 {
+        width: 17% !important;
+    }
+    .comments_show {
+        display: flex;
+        background: #2f442f;
+        padding: 50px 20px;
+        width: 100%;
+        border-radius: 12px;
+        MARGIN-TOP: 40PX;
+        FLEX-WRAP: wrap;
+    }
+    .reviews {
+        width: 100%;
+        padding: 14px;
+    }
+    body .comment_option .comment_box button.comment_submit {
+        background: #fff;
+        color: #000;
+        width: 100%;
+    }
+    .comment_option .comment_box textarea {
+        margin: 20px 0px;
+        width: 100%;
+        padding: 10px;
+    }
+    .comment_option .comment_box input[type="text"] {
+        width: 100%;
+    }
+    .comment_option .comment_box {
+        display: block;
+    }
+    .row.video_comment .col.span_3 {
+        width: 14%;
+        margin-bottom: 0;
+    } 
+  }

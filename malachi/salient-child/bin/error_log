@@ -1,0 +1,8 @@
+[17-Sep-2024 19:19:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_stylesheet_directory_uri() in /home/devu17testdevlin/public_html/Malachi_Hydrick/wp-content/themes/salient-child/bin/chat-server.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/devu17testdevlin/public_html/Malachi_Hydrick/wp-content/themes/salient-child/bin/chat-server.php on line 7
+[17-Sep-2024 19:31:01 UTC] PHP Fatal error:  Uncaught Error: Class "MyApp\Chat" not found in /home/devu17testdevlin/public_html/Malachi_Hydrick/wp-content/themes/salient-child/bin/chat-server.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/devu17testdevlin/public_html/Malachi_Hydrick/wp-content/themes/salient-child/bin/chat-server.php on line 12

@@ -1,0 +1,61 @@
+/* CSS Document */
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	line-height: 1.4;
+	color: inherit;
+}
+
+p {
+	margin: 0 0 1.5rem;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, ol, ul, ul ul, ul ul ul {
+	font-weight: inherit;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	break-inside: avoid-column;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+.columns {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+header, footer, content, slide, slides, hero, main, article, section {
+	display: block;
+}
+
+.hidden {
+	display: none;
+}
+
+.visible {
+	display: block;
+}

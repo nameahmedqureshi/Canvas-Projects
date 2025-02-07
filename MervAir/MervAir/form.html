@@ -1,0 +1,329 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+	<link href='filters.css' rel='stylesheet'>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap" rel="stylesheet"> 
+	
+	<script src='js/jquery-3.7.1.min.js'></script>
+	
+	<script src='js/jquery.cycle2.min.js'></script>
+	
+	
+	<script>
+	$(document).ready(function(){
+		
+		$('body').addClass('js');
+		
+			//$('.field').addClass('hidden')
+			//$('.current').removeClass('hidden');
+		
+		$('.prev').click(function(){
+		currentField = $('.current').attr('data-field');
+			if(currentField > 1)
+				{
+		prevField = parseInt(currentField) - parseInt(1);
+		prevField = "#field"+prevField;
+			//$('body').prepend(nextField);
+			$('.field').removeClass('current');
+			$(prevField).addClass('current');
+					
+				//$($(this).attr('href')).addClass('current');
+			$('a[href='+prevField+']').parent('li').addClass('tab-active');
+					
+				}
+			
+			
+			
+		});
+		
+		
+		
+		$('.next').click(function(){
+		currentField = $('.current').attr('data-field');
+			if(currentField < 5)
+				{
+		nextField = parseInt(currentField) + parseInt(1);
+		nextField = "#field"+nextField;
+			//$('body').prepend(nextField);
+			$('.field').removeClass('current');
+			$(nextField).addClass('current');
+				}
+		});
+		
+		$('.increase').click(function(){
+			slide = $('#filter-number').val();
+			if(slide < 5)
+				{
+			document.getElementById('filter-number').value++;
+				}
+		});
+		
+				$('.decrease').click(function(){
+				slide = $('#filter-number').val();
+					if(slide > 1) {
+			document.getElementById('filter-number').value--;
+					}
+		});
+		
+		
+		/*$('.fields').cycle({
+		fx: 'fade',
+		//pager: '.navigation',
+		pagerActiveClass: 'active',
+		pagerTemplate: '<a href="#">{{title}}</a>',
+		slides : ".field",
+		timeout: 12000,
+		height: 'auto',
+			'prev' : '.prev',
+			'next' : '.next'
+	}); */
+		
+		$('.progress li a').click(function(){
+			
+			    $('.tab-active').removeClass('tab-active');
+			$(this).parent('li').addClass('tab-active');
+    	$('.field').removeClass('current');
+    $($(this).attr('href')).addClass('current');
+			
+		});
+		
+		/*$('#filter-number').change(function(){
+			xTcount = $(this).val();
+			//for(var i = 0; i < xTcount; i++) {
+		//}
+			$('body').prepend(xTcount);
+		});*/
+		
+		$("#filter-number").on("change paste keyup", function() {
+   //	xTcount = $(this).val();
+		//	$('body').prepend(xTcount);
+			$('body').addClass('changed');
+		});
+		
+	});
+	</script>
+	
+</head>
+
+<body>
+	
+	
+	<div class='wrapper'>
+		
+		
+		<div class='progress'>
+			
+			<div class='progress-title'>Create Your Filter Plan</div>
+		
+		<ul>
+			
+			<li><a href="#field1">
+			  Amount
+				    <strong>1</strong>
+			</a></li>
+			<li><a href="#field2">
+			  Size
+				    <strong>2</strong>
+			</a></li>
+			<li><a href="#field3">
+			  Type
+				    <strong>3</strong>
+			</a></li>
+			<li><a href="#field4">
+			  Schedule
+				    <strong>4</strong>
+			</a></li>
+			<li><a href="#field5">
+			  Summary
+				    <strong>5</strong>
+			</a></li>
+			
+		</ul>
+			
+		</div>
+		
+	
+	<h1>Select Your Plan</h1>
+	
+<form>
+	
+	
+<div class='fields'
+	 data-cycle-auto-height='container' data-pause-on-hover="true"
+	 >
+		
+	<div class='field current amount field1' data-field='1' id='field1'>
+		
+		<h2>How many filters in your house?</h2>
+		
+		<div class='columns'>
+		<a class='decrease change-amount' href='#'>-</a>
+		<input type='text' name='' class='filter-number' value='2' id='filter-number'>
+		<a class='increase change-amount' href='#'>+</a>
+		</div>
+		
+  </div>
+	
+	
+	<div class='field size field2' data-field='2' id='field2'>
+		
+		<h2>What are the sizes of your filters?</h2>
+		
+		<div class='filter-size filter1 columns'>
+			
+
+			
+				<div class='width'>
+			<label>Width</label>
+			<select>
+				<option>12"</option>
+				<option>16"</option>
+				<option>20"</option>
+				<option>21"</option>
+			</select>
+		</div>
+			
+				<div class='height'>
+			<label>Height</label>
+			<select>
+				<option>12"</option>
+				<option>16"</option>
+				<option>20"</option>
+				<option>21"</option>
+			</select>
+		</div>
+			
+				<div class='thickness'>
+			<label>Thickness</label>
+			<select>
+				<option>1"</option>
+				<option>2"</option>
+				<option>4"</option>
+				<option>5"</option>
+			</select>
+		</div>
+			
+		</div><!--/filter-->
+		
+  </div><!--/field-->
+		
+
+	<div class='field type field3' data-field='3' id='field3'>
+		
+		<h2>What level of filtration do you need?</h2>
+		
+		<div class='filter-types columns'>
+			
+
+			
+		<div class='filter-type good'>
+	<div class='overlay'>
+						<h3>Good</h3>
+					<p>Great for homeowners looking to catch some of the bigger annoyances, like dust and pollen particles.</p>
+						<a class='button' href='#'>Select</a>
+					</div>
+<img src="images/good.png" width="670" height="669" alt=""/> 
+		</div>
+			
+				<div class='filter-type better'>
+					<div class='overlay'>
+						<h3>Better</h3>
+					<p>Great for homeowners looking to catch some of the bigger annoyances, like dust and pollen particles.</p>
+						<a class='button' href='#'>Select</a>
+					</div>
+<img src="images/better.png" width="670" height="669" alt=""/> 
+		</div>
+			
+				<div class='filter-type best'>
+					<div class='overlay'>
+						<h3>Best</h3>
+					<p>Great for homeowners looking to catch some of the bigger annoyances, like dust and pollen particles.</p>
+						<a class='button' href='#'>Select</a>
+					</div>
+<img src="images/best.png" width="670" height="669" alt=""/> 
+		</div>
+			
+		</div><!--/filter-->
+		
+  </div>
+	
+<div class='field frequency field4' data-field='4' id='field4'>
+	
+	<h2>How often would you like new filters?</h2>
+	
+	<div class='filter-frequency columns'>
+	
+	<div class='frequency1 frequency-amount'>
+		Every
+		<div class='frequency-number'>1</div>
+		Month		
+	</div>
+		
+			<div class='frequency2 frequency-amount'>
+		Every
+		<div class='frequency-number '>2</div>
+		Months		
+	</div>
+		
+			<div class='frequency3 frequency-amount'>
+		Every
+		<div class='frequency-number '>3</div>
+		Months	
+	</div>
+	
+	</div>
+	
+	
+	</div>	
+	
+	
+<div class='field summary field5' data-field='5' id='field5'>
+	
+	<div class='columns'>
+		
+		<div class='order-details'>
+	<h2>Review Your Order</h2>
+	
+	<p>Filters (2):</p>
+	<p>Filter 1: 24&quot; x 20&quot; x 1&quot;</p>
+	<p>Filter 2: 24&quot; x 20&quot; x 1&quot;</p>
+	<p>Filter Type: Better</p>
+	<p>Frequency: Every 2 Months</p>
+	<p>Total: $23/month</p>
+		</div>
+		
+		<a class='button submit' href='#'>Place Order</a>
+		
+	</div>	
+		
+		
+</div>
+	
+	
+</div>		
+	
+<div class='navigation'>
+	<a class='prev' href='#'>Back</a>
+	<a class='next' href='#'>Next</a>
+</div>	
+
+		
+		</form>
+	
+</div>	
+	
+	<!--
+	  <input type="range" id="cowbell" name="cowbell" min="0" max="100" value="90" step="10" />
+  <label for="cowbell">Cowbell</label>
+-->
+	
+	
+</body>
+	
+	
+</html>

@@ -1,0 +1,80 @@
+@media only screen and (min-width: 1800px) {}
+@media only screen and (max-width: 1799px) {
+    .box_frame {
+        max-width: 1850px;
+        margin: 0 auto;
+    }
+    .products_top_holder .pic_frame img {
+        right: 70px;
+        max-width: 400px;
+    }
+    .products_top_holder_txt .products_top_holder_note,
+    .products_top_holder_txt .products_top_holder_note_lite {
+        font-size: 90px;
+    }
+    .products_first_holder_upper_txt .products_first_holder_note_lite {
+        font-size: 45px;
+    }
+    .checkbox-wrapper-4 * {
+        font-size: 16px;
+    }
+    .box_seprator .side_tab_item {
+        font-size: 16px;
+    }
+}
+/* @media only screen and (min-width: 1600px) {
+	.slice_side_right a.action_click {
+    position: fixed;
+    right: 167px !important;
+    top: 85%;
+    z-index: 99999 !important;
+}
+}
+@media only screen and (min-width: 1440px) {
+	.slice_side_right a.action_click {
+    position: fixed;
+    right: 50px !important;
+    top: 89%;
+    z-index: 99999 !important;
+}
+} */
+@media only screen and (max-width: 1366px) {
+	.slice_side_right a.action_click {
+        position: fixed;
+        right: 55px !important;
+        top: 90%;
+        z-index: 999999 !important;
+    }
+/* 	.action_click {
+    width: 270px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--avantGarde-medium) !important;
+    font-size: 16px;
+    color: #fff;
+    background: #0d4027;
+    margin-left: auto;
+    transition: all 0.25s;
+    border: 2px solid transparent;
+} */
+}
+@media only screen and (max-width: 1280px) {
+	.info__block {
+    max-width: 265px;
+}
+}
+@media only screen and (max-width: 1024px) {}
+@media only screen and (max-width: 840px) {
+	.productType .labelProductType {
+    padding: 15px 60px !important;
+}
+	.productType .checkbox-wrapper-4 .cbx span {
+    font-size: 18px !important;
+}
+	.pagination {
+    margin-right: 140px !important;
+}
+}
+@media only screen and (max-width: 575px) {}

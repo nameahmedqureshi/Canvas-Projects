@@ -1,0 +1,354 @@
+/* CSS Document */
+/*  
+Theme Name: MervAir
+Author URI: https://derekweathersbee.com
+Version: 1
+Author: Derek Weathersbee
+Description: It works. It is dope.
+The CSS, XHTML and design is released under GPL: 
+http://www.opensource.org/licenses/gpl-license.php
+*/
+
+@import "common.css";
+
+
+#wpadminbar {
+	bottom:0 !important;
+	top: auto !important;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+	font-weight: 400;
+	font-size: 1.125rem;
+	color: #2e3a8b;
+	color: #75767a;
+
+}
+
+hero, sidebar, main, footer, header {
+	display: block;
+}
+
+.hidden {
+	display: none;
+}
+
+hr {
+	width: 6rem;
+	margin: 2rem auto;
+	color: black;
+	background: black;
+	height: .5px;
+}
+
+.home hr {
+	margin: 6rem auto;
+}
+
+p {
+	margin: 0 0 1.5rem;
+}
+
+h1 {
+	color: #2e3a8b;
+	margin: 0 0 2rem;
+	font-size: 2.5rem;
+	font-weight: 600;
+	font-family: "Fira Sans", sans-serif;
+}
+
+.home h1 {
+	font-size: 4rem;
+	font-weight: 600;
+	margin: 0 0 3rem;
+}
+
+h2 {
+	font-weight: 400;
+	font-size: 2rem;
+	margin: 0 0 1.5rem;
+		color: #2e3a8b;
+}
+
+.home h2 {
+	font-size: 2.5rem;
+	font-weight: 700;
+	
+}
+
+.home h2 em {
+	color: #75767a;
+}
+
+h3 {
+	font-size: 1.5rem;
+	margin: 0 0 2.5rem;
+	text-transform: uppercase;
+	
+}
+
+.callout {
+	background: #5ca7db;
+	color: white;
+	padding: 2rem;
+	display: inline-block;
+	border-radius: .5rem;
+}
+
+
+.columns {
+	display: flex;
+	justify-content: space-between;
+}
+
+.inner {
+	width: 75rem /*1200px */;
+	margin: 0 auto;
+}
+
+.inner.medium {
+	width: 60rem /*960px */;
+}
+
+
+.logo {
+	width: 16rem;
+}
+
+.logo img {
+	width: 100%;
+	height: auto;
+}
+
+header {
+	background: white;
+	padding: 2.5rem 0;
+	border-top: .75rem solid #5ca7db;
+}
+
+nav {
+	align-items: center;
+}
+
+nav > ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+nav > ul > li {
+	margin: 0 0 0 2rem
+}
+
+nav > ul > li > a {
+	font-size: 1.125rem;
+	text-transform: uppercase;
+	color: inherit;
+	font-weight: 500;
+}
+
+nav > ul > li.current_page_item > a {
+	
+}
+
+
+.progress-title {
+	display: none;
+}
+
+.menu-toggle {
+	width: 2rem;
+	height: 1.5rem;
+	background: url("images/icon-menu.svg") center center no-repeat;
+	background-size: 2rem 1.5rem;
+	display: block;
+}
+
+nav > ul {
+}
+
+hero {
+	position: relative;
+	background: #2e3a8b;
+	color: white;
+	padding: 4rem 0;
+}
+
+.home hero {
+	padding: 0;
+	background: white;
+}
+
+.about-mervair hero {
+	background: white;
+	padding: 3rem 0;
+	box-shadow: 2px 2px 4px #333;
+		border-top: 1px solid #e2e2e2;
+}
+
+.about-mervair .button {
+	display: none;
+}
+
+.about-mervair header {
+
+}
+
+.home header {
+
+}
+
+.home hero img {
+	widtH: 100%;
+	height: auto;
+}
+
+.about-mervair hero img {
+	width: 100%;
+	height: auto;
+}
+
+hero .columns {
+	align-items: center;
+}
+
+.hero-image {
+	width: 40%;
+}
+
+.hero-text {
+	width: 55%;
+	font-size: 3rem;
+	font-weight: 700;
+	font-family: "Fira Sans", sans-serif;
+}
+
+
+main {
+	padding: 6rem 0;
+	font-size: 1.25rem;
+}
+
+.home main  {
+	text-align: center;
+}
+
+
+footer {
+	padding: 3rem;
+	background: #2e3a8b;
+	color: white;
+}
+
+footer .inner {
+	align-items: center;
+}
+
+.copyright {
+	text-transform: uppercase;
+}
+
+.footer-logo {
+	width: 6rem;
+}
+
+.footer-logo img {
+	width: 100%;
+	height: auto;
+}
+
+
+/* home /////////// */
+
+.home .callout {
+	margin: 0 0 4rem;
+}
+
+.benefits {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.benefit {
+	width: 30%;
+}
+
+.benefit img {
+	width: 85%;
+	height: auto;
+	margin: 0 auto;
+}
+
+hero .button {
+	font-size: 2rem;
+	padding: 1rem 2rem;
+	color: white;
+	font-weight: 700;
+	border-radius: 1rem;
+	background: #244a88;
+	display: inline-block;
+	position: absolute;
+	bottom: 10vw;
+	right: 10vw;
+	border: 2px solid white;
+	
+}
+
+.inner-copy-image {
+	width: 100%;
+	height: auto;
+	margin: 2.5rem 0;
+}
+
+.intro-text {
+	font-size: 1.75rem;
+	font-style: italic;
+}
+
+strong em {
+	color: #2e3a8b;font-size: 1.875rem;text-align: center;display: block; font-weight: 700; font-style: normal;
+}
+
+
+.icon-image {
+	margin: 0 0 5rem;
+	padding: 0 0 5rem;
+	border-bottom: .5rem solid #114b8d;
+}
+
+/* filters ////////// */
+
+
+.air-filters main {
+	padding-top: 1rem;
+}
+
+.filter-items {
+	margin: 0 0 1.25rem;
+	padding: 0;
+	list-style: none;
+
+	display: flex;
+	flex-flow: row wrap;
+	
+		background: white;
+	color: black;
+	padding: 1rem .75rem .5rem;
+}
+
+.filter-items li {
+	padding: 0 0 0 1.125rem;
+		font-size: .875rem;
+	color: black;
+	background: url("images/check-mark.svg") left center no-repeat;
+	background-size: .875rem auto;
+	line-height: 1.5rem;
+	margin: 0 1rem .25rem 0;
+}
+
+.overlay p.filter-description {
+	background: black;
+	color: white;
+	margin: 0;
+}

@@ -1,0 +1,305 @@
+/* Tabs */
+.tabs {
+    width: 100%;
+  }
+
+  ul#tabs-nav {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    overflow: auto;
+  }
+  .tabs ul#tabs-nav {
+    margin: auto;
+    display: flex;
+    background: transparent;
+    justify-content: center;
+}
+
+.services_sec {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
+}
+.Make_Model_Year .input_field {
+  /* width: 39%; */
+  display: flex;
+}
+
+.Make_Model_Year .input_field:nth-child(3) {width: 21% !important;padding-right: 9px;}
+
+.pricing h3, .pricing h5 {
+    font-weight: 600;
+    background: var(--g1);
+    background-size: 200% 200%;
+    animation: scroll 5000s infinite linear;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 0;
+    font-weight: 900 !important;
+}
+.main_service_box:hover {
+    border-color: var(--c);
+    background: white;
+    border-bottom: 8px solid #c5a543;
+}
+.main_service_box {
+    width: 48%;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.5s;
+    position: relative;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+ .tabs ul#tabs-nav li {
+    list-style: none !important;
+    background: #000;
+    padding: 9px 40px;
+    margin: 30px 20px;
+}
+.tabs ul#tabs-nav li.active {
+    font-weight: 600;
+    background: var(--g1);
+    background-size: 100% 100%;
+    animation: scroll 4000s infinite linear;
+}
+  #tabs-nav li a {
+    text-decoration: none;
+    color: #FFF;
+  }
+  .tab-content {
+    padding: 10px;
+    /* border: 5px solid #09F; */
+    /* background-color: #FFF; */
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    margin: 8% auto;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+  /* end */
+
+  /* register form */
+  .form-box .close {
+    right: 3%;
+    top: 3%;
+    font-size: 19px;
+    z-index: 9999;
+}
+.form-container input {
+    width: 48% !important;
+}
+.form-container .birthday {
+    width: 100% !important;
+}
+
+  .form-box {
+    max-width: 30%;
+    background: #f1f7fe;
+    overflow: hidden;
+    border-radius: 16px;
+    color: #010101;
+}
+  
+  .form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 24px 24px;
+    gap: 16px;
+    text-align: center;
+  }
+  
+  /*Form text*/
+  .title {
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /*Inputs box*/
+  .form-container input {
+    margin: 6px 5px;
+}
+  .form-container {
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 1rem 0 .5rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+  .input {
+    background: none;
+    border: 0;
+    outline: 0;
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    font-size: .9rem;
+    padding: 8px 15px;
+  }
+  
+  .form-section {
+    padding: 16px;
+    font-size: .85rem;
+    background-color: #e0ecfb;
+    box-shadow: rgb(0 0 0 / 8%) 0 -1px;
+  }
+  
+  .form-section a {
+    font-weight: bold;
+    color: #0066ff;
+    transition: color .3s ease;
+  }
+  
+  .form-section a:hover {
+    color: #005ce6;
+    text-decoration: underline;
+  }
+  
+  /*Button*/
+  .form button {
+    background-color: #000000;
+    color: #fff;
+    border: 0;
+    border-radius: 24px;
+    padding: 10px 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color .3s ease;
+  }
+  
+  /* .form button:hover {
+    background-color: #005ce6;
+  } */
+/* end */
+div#reg h2 {
+    margin-bottom: 20px;
+}
+div#reg img {
+    height: 420px;
+    object-fit: cover;
+    object-position: center;
+}
+div#reg .col.span_7 {
+    padding: 20px;
+}
+div#reg p {
+    margin-top: 20px;
+}
+section.service_inner {
+    padding: 50px 0px;
+}
+div#reg .pricing > div {
+    width: 10%;
+    min-width: 130px;
+}
+div#reg {
+    display: flex;
+}
+div#reg .pricing {
+    display: flex;
+}
+.booking_form .input_field {
+    margin-bottom: 10px;
+}
+th {
+    background: #000;
+    color: #fff;
+}
+.booking_form {
+    display: flex;
+    flex-wrap: wrap;
+}
+select#type {
+    width: 100%;
+    margin: 0px 6px !important;
+}
+.Make_Model_Year .input_field {
+  width: 100% !important;
+}
+.booking_form input.button {
+    width: 100%;
+    margin: unset;
+    color: #000;
+}
+div#example_wrapper {
+    margin-top: 40px;
+}
+.booking_form select {
+    width: 98% !important;
+}
+textarea#client_requests {
+    width: 93%;
+}
+.Make_Model_Year .input_field {
+    margin: 10px 10px 10px 0px !important;
+}
+select#dt-length-0 {
+    width: 40%;
+}
+div#reg .form_container {
+    padding: 20px 0px 20px 24px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 0px 5px 0px #80808082;
+}
+.Make_Model_Year {
+    display: flex;
+}
+.Make_Model_Year input {
+    width: 100% !important;
+}
+.booking_form input {
+    margin: 0px 10px 0px 0px;
+    width: 90% !important;
+}
+#login_btn {
+  text-decoration: underline;
+  font-weight: 600;
+}
+form.booking_form {
+  padding: 30px 10px 30px 40px;
+}
+
+
+/* div#reg .col.span_3 {margin: 0px 50px;} */

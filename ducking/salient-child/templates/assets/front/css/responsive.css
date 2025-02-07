@@ -1,0 +1,106 @@
+@media only screen and (max-width:1600px){
+	.user_banner .cover_img {
+		right: 60px;
+		max-width: 415px;
+	}
+	.gallery_card {
+		height: 245px;
+	}
+	.gallery_card .img_box img {
+		height: 170px;
+	}
+	.abs_jeep_image {
+    max-width: 650px;
+}
+}
+@media only screen and (max-width:1440px){
+	.inner_content_body {
+		padding: 20px;
+	}
+	.logo_box {
+		max-width: 160px;
+	}
+	.side_menu {
+		max-width: 255px;
+		padding: 50px 15px 50px 15px;
+	}
+	.content_main {
+		width: calc(100% - 255px);
+	}
+	.top_actions_btns_wrap {
+		width: 70%;
+	}
+	.inner_header .heading_top {
+		font-size: 35px;
+		width: 30%;
+	}
+	.inner_header {
+		padding: 20px 25px;
+	}
+	.user_info .p_name {
+		font-size: 50px;
+		padding-bottom: 10px;
+	}
+	.user_info_form {
+		max-width: 900px;
+	}
+	.edit_btn {
+		font-size: 16px;
+	}
+	.nav_item {
+		font-size: 15px;
+	}
+	.gallery_card {
+		height: 245px;
+	}
+	.gallery_card .img_box img {
+		height: 170px;
+	}
+	.upload_circle {
+		width: 110px;
+		height: 110px;
+	}
+	.upload_circle img {
+		max-width: 38px;
+	}
+	.gallery_card .text_box .title {
+		font-size: 13px;
+	}
+	.upload_card {
+		border: 1px dashed #000;
+	}
+	.gen_new_box {
+		padding: 30px;
+	}
+	.qr_text_dropbox .gen_input {
+		height: 140px;
+	}
+	.gen_heading {
+		font-size: 30px;
+	}
+	.social_icon {
+		width: 46px;
+		height: 46px;
+		font-size: 18px;
+	}
+	.gen_textarea {
+		height: 100px;
+	}
+	.map_location_search input {
+		height: 50px;
+		font-size: 15px;
+	}
+	.map_location_search .seacrh_btn {
+		height: 45px;	
+	}
+}
+/*@media only screen and (max-width:1366px){}
+@media only screen and (max-width:1280px){}
+@media only screen and (max-width:1024px){}
+@media only screen and (max-width:991px){}
+@media only screen and (max-width:767px){}
+@media only screen and (max-width:660px){}
+@media only screen and (max-width:575px){}
+@media only screen and (max-width:480px){}
+@media only screen and (max-width:375px){}
+@media only screen and (max-width:340px){}*/

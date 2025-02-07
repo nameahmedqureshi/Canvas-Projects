@@ -1,0 +1,549 @@
+
+body .hex {
+    /* padding: 50px 0px 220px 0px !important; */
+    font-size: 83px !important;
+    background-image: url(https://devu06.testdevlink.net/Wizard_Reg_Plates/wp-content/uploads/2024/04/Rectangle-1.png) !important;
+    background-color: unset !important;
+    box-shadow: unset !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+}
+.plate_num_box {
+    transition: 0.3s;
+}
+.hex.black_border {
+    outline: unset !important;
+    background-image: url(https://devu06.testdevlink.net/Wizard_Reg_Plates/wp-content/uploads/2024/04/Rectangle-1.pngasdfasd.png) !important;
+}
+.oversize {
+    padding: 80px 40px !important;
+}
+.black_border.shortened {
+    font-size: 78px;
+    text-align: center;
+}
+.shortened {
+    width: 89%;
+    margin: auto;
+    font-size: 77px;
+    padding: 40px 10px 50px 3px !important;
+}
+.square p.plate_num {
+    display: flex;
+    justify-content: center;
+}
+.square p.plate_num {
+    line-height: 85px;
+}
+.square.flag::before {
+    top: 50% !important;
+}
+
+.flag p.plate_num {
+    z-index: 9999;
+    position: relative;
+}
+
+.square::before {
+    top: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    margin: auto;
+    margin-left: 10px;
+}
+
+.square {
+    padding: 26px 0px 57px 0px !important;
+    width: 68%;
+    margin: auto;
+    font-size: 83px !important;
+    min-height: 260px;
+}
+.front.black_border, .rear.black_border {
+    outline: 3px solid #000;
+    outline-offset: -10px;
+    border-radius: 20px !important;
+}
+
+.plate_num_box {
+    padding: 40px 0px 55px 0px;
+    background: #e2e2e2;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0px 0px 5px 2px #80808091;
+    text-transform: uppercase;
+    font-size: 6rem;
+    font-weight: 700;
+    color: #000;
+    text-shadow: 1px 1px 1px #000000, 1px 2px 1px #000000, 1px 3px 1px #000000, 1px 4px 1px #000000, 1px 5px 1px #080808, 1px 6px 1px #8d8686, 1px 7px 1px #000000, 1px 8px 1px #919191, 1px 9px 1px #919191, 1px 10px 1px #919191, 1px 18px 6px rgba(16,16,16,0.4), 1px 22px 10px rgba(16,16,16,0.2), 1px 25px 35px rgba(16,16,16,0.2), 1px 30px 60px rgba(16,16,16,0.4);
+}
+
+.un_flag:before {
+    content: '';
+    background-image: url(https://devu06.testdevlink.net/Wizard_Reg_Plates/wp-content/uploads/2024/04/Screenshot_2024-04-17_040840-removebg-preview.png);
+    width: 48px;
+    height: 73px;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 0%;
+    display: flex;
+    top: 24%;
+}
+
+.add_to_cart.add_extra_item {
+    padding: 8px 27px;
+    margin: 0px 20px;
+    background: #fdc83f;
+    border: unset;
+    font-size: 16px;
+}
+.plate_num_box.flag {
+    padding-left: 40px;
+}
+ul#tabs-nav {
+    pointer-events: none;
+}
+.warning-message{
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: red;
+    display: none;
+}
+div#card-element {
+    padding: 20px;
+    background: white;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+.usr_frm {
+    margin-top: 7px;
+    background: white;
+}
+.continue_btn_main.step1.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+.rear_dont_need.disabled, .Front_plate.disabled, .Rear_plate.disabled, .front_dont_need.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+div#tabs-content input:checked + label .style_box {
+    border: 2px solid #eeb907;
+    border-radius: 4px;
+}
+    div#tabs-content input[type="radio"] {
+    display: none;
+}
+    .plate_num_box.rear {
+    display: none;
+}
+.square p.plate_num {
+    line-height: 85px;
+}
+.plate_num_box.front {
+    background: #e2e2e2;
+}
+    .Plate_buttons button.active {
+    background: #f5bf07;
+}
+/* hide flag on hex style css */
+.hex.flag:before {display: none;}
+
+body .hex.flag p {
+    outline: unset !important;
+}
+
+.hex.flag.black_border {
+    padding: unset !important;
+}
+/* end */
+    .continue_btn_main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+    strong.plate_num {
+    text-transform: uppercase;
+}
+.square::before {
+    height: 280px !important;
+    width: 40px !important;
+    left: -10px;
+}
+    .accordion-item {
+    border-bottom: 2px solid #f5f5f5;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+    .accordion-header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.accordion-header .accord_heading {
+    width: 70%;
+}
+.accord_detail {
+    display: flex;
+    align-items: center;
+}
+.accord_detail p.price {
+    padding-bottom: 0;
+}
+button.add_to_cart {
+    padding: 15px 35px;
+    margin: 0px 20px;
+    background: #fdc83f;
+    border: unset;
+    font-size: 16px;
+}
+.row.acord_content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.row.acord_content p.pro_desc {
+    max-width: 510px;
+}
+button.add_to_cart i {
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    left: -10px;
+}
+
+.accordion-header i {
+    font-size: 18px;
+    margin-right: 7px;
+}
+.extra_item {
+    display: none;
+}
+
+.main_accord {
+    border: 2px solid #f5f5f5;
+    padding: 18px;
+    border-radius: 20px;
+}
+    .dont_need label {
+    font-size: 14px;
+}
+    .dont_need.flag {
+    margin-bottom: 0;
+}
+    input#dont_need, input#rear_dont_need, input#dont_need_flag, input#black_border {
+    transform: scale(1.6);
+    margin-right: 5px;
+}
+    .dont_need {
+    margin-bottom: 20px;
+    margin-right: 0px;
+}
+    .style_box .style_desc {background: #f1f1f1;padding: 10px;}
+
+    .style_box img.style_img {
+    margin-bottom: -9px;
+    width: 200px !important;
+    height: 120px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.style {
+    height: 450px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 0px 10px 0px 0px;
+}
+    .style_box {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.style_box.active {
+    border: 2px solid #fdc83f;
+    border-radius: 4px;
+}
+
+.continue_btn {margin-top: 30px;}
+    .Plate_buttons button {
+    padding: 14px 30px;
+    border: 2px solid #8080804a;
+    border-bottom: 0px;
+    cursor: pointer;
+}
+
+button.Rear_plate {
+    margin-left: -10px;
+}
+
+    /* .plate_num_box {
+    padding: 130px 40px;
+    background: #f1f1f1;
+    border: 2px solid #8080804a;
+} */
+.plate_box {
+    padding: 130px 40px;
+    background: #f1f1f18f;
+    border: 2px solid #8080804a;
+}
+
+    body, body h1, body h2, body h3, body h4, body h5, body h6, .woocommerce div.product .woocommerce-tabs .full-width-content ul.tabs li a, .woocommerce .woocommerce-breadcrumb a, .woocommerce .woocommerce-breadcrumb i, body:not(.original) .comment-list .comment-author, body:not(.original) .comment-list .pingback .comment-body > a, .post-area.standard-minimal .post .more-link span, #sidebar .widget .nectar_widget[class*="nectar_blog_posts_"] > li .post-date {
+    color: #000 !important;
+}
+    body.page.page-id-208 .container-wrap {
+    background: #fff !important;
+}
+    /* Tabs */
+    .tabs {
+    width: 100%;
+}
+    ul#tabs-nav span {
+    position: relative;
+    left: -20px;
+    color: #6d6d6d;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+ul#tabs-nav {
+list-style: none;
+margin: 0;
+padding: 5px;
+overflow: auto;
+}
+ul#tabs-nav li {
+    float: left;
+    font-weight: bold;
+    margin-right: 6px;
+    padding: 8px 54px 8px 26px;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    list-style: unset;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #e4e2e0;
+    border-radius: unset !important;
+    transition: 0.6s;
+    min-height: 52px;
+}
+ul#tabs-nav li:hover, ul#tabs-nav li.active {
+    border-bottom: 4px solid #f5bf07;
+}
+#tabs-nav li a {
+text-decoration: none;
+color: #000;
+}
+ul#tabs-nav li.active span {
+    color: #f5bf07 !important;
+}
+.tab-content {
+    padding: 10px;
+    background-color: #FFF;
+    /* display: flex; */
+}
+.continue_btn {
+    width: 100%;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 20px;
+    background: #f5bf07;
+    padding: 12px 30px;
+}
+input#fname {
+    margin-bottom: 12px;
+    margin-top: 9px;
+}
+.flag.black_border {
+    padding: 10px 0px 10px 0px !important;
+    outline: unset;
+}
+.flag.black_border p.plate_num{
+    outline: 3px solid #000;
+    outline-offset: -10px;
+    border-radius: 20px !important;
+    padding: 41px 20px 50px 20px !important;
+    display: flex;
+    margin-left: 40px;
+    justify-content: center;
+}
+.plate_num_box p {
+    font-family: 'birtish' !important;
+}
+.st_flag:before {
+    content: '';
+    background-image: url(https://devu06.testdevlink.net/Wizard_Reg_Plates/wp-content/uploads/2024/04/Layer-1.pngsadf8a74d.png);
+    width: 33px;
+    height: 101px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 2%;
+    display: flex;
+    bottom: 0;
+    top: 15%;
+    position: absolute;
+}
+.black_border::before {
+    height: 138px !important;
+}
+.green_flag:before {
+    content: '';
+    width: 43px;
+    height: 122px;
+    left: 0%;
+    display: flex;
+    bottom: 0;
+    top: 0%;
+    position: absolute;
+    background: #00ba16;
+    border-radius: 14px 0px 0px 15px;
+}
+.plate_num_box {
+    position: relative;
+}
+.welsh_flag:before {
+    content: '';
+    background-image: url(https://devu06.testdevlink.net/Wizard_Reg_Plates/wp-content/uploads/2024/04/Layer-1.pngsadf8a74d.png);
+    width: 33px;
+    height: 101px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 2%;
+    display: flex;
+    bottom: 0;
+    top: 15%;
+    position: absolute;
+}
+.salt_flag:before {
+    content: '';
+    background-image: url(https://devu06.testdevlink.net/Wizard_Reg_Plates/wp-content/uploads/2024/04/safnsaf.png);
+    width: 33px;
+    height: 101px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 2%;
+    display: flex;
+    bottom: 0;
+    top: 15%;
+    position: absolute;
+}
+p.new-reg {
+    padding-bottom: 0;
+}
+.Registration {
+    width: 100%;
+}
+.Registration h3 {
+    margin-bottom: 30px !important;
+    font-size: 20px !important;
+}
+/* end */
+/* card_css */
+section.plate .order_detail {
+    background: #f5bf07;
+    padding: 30px 40px;
+    color: #000;
+}
+section.plate .order_detail p {padding-bottom: 2px;font-size: 15px;}
+.order_detail h4 {
+    color: #000;
+    font-size: 28px;
+    line-height: 35px;
+}
+.order_detail h5 {
+    color: #000;
+}
+.order_price {display: flex;justify-content: end;border-bottom: 1px solid;margin-top: -20px;}
+p.plate_price {/* display: flex; *//* justify-content: end; *//* border-bottom: 1px solid; *//* margin-top: -20px; */}
+p.plate_price {
+    margin-top: -27px;
+    line-height: 50px;
+    font-size: 17px !important;
+}
+.order_vat {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+}
+h6.plate_vat {
+    color: #000;
+    font-size: 20px;
+}
+p.vat_price {
+    font-size: 17px !important;
+}
+.order_total {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h6.plate_total {
+    color: #000;
+    font-size: 20px;
+}
+section.plate .order_detail button {
+    margin: auto;
+    display: table;
+    width: 100%;
+    padding: 14px;
+    border: unset;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.monthly_pay {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+p.monthly_payment {
+    font-size: 17px !important;
+}
+.ghost {
+    text-shadow: 5px 1px 0px #000;
+    font-weight: 400;
+}
+
+.four_d_5mm_acrylic {
+    text-shadow: 3px 0px 2px #000;
+    font-weight: 500;
+}
+
+
+.four_d_3mm_acrylic {
+    text-shadow: 3px 0px 2px #000;
+    font-weight: 500;
+}
+.printed {
+    text-shadow: 3px 0px 2px #000;
+    font-weight: 500;
+}
+.motorbike_plate,.four_d_laser_cut_plate {
+    padding: 30px 0px 150px 0px !important;
+    width: 60%;
+    margin: auto;
+}
+.japanese_plate {
+    padding: 40px 0px 150px 0px !important;
+}
+.japanese_plate p, .motorbike_plate P {
+    font-size: 90px;
+    line-height: 95px;
+}
+.japanese_plate.black_border.flag {
+    padding: 10px 10px 10px 0px !important;
+}
+.flag.japanese_plate p.plate_num {
+    padding: 90px 0px !important;
+}
+.square p.plate_num {
+    margin-top: 12%;
+}

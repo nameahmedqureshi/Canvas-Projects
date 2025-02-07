@@ -1,0 +1,73 @@
+/* CSS Document */
+header, footer, content, slide, slides, hero, main, article, section, .inner, .columns, .column, .item, .inner.narrow, .inner.medium, .hero-content, .hero-image, .image-column, .content-column, ul.footer-nav, .security-area, .article-head .inner, .article-title .title-subhead, .reality-intelligence .title .inner {
+	display: block ;
+	width: auto !important;
+}
+
+nav.inner.columns {
+	display: flex;
+}
+
+.columns.benefits, .benefit {
+	width: 100%;
+	display: block;
+}
+
+nav > ul {
+	order: 3;
+	width: 100%;
+	position: absolute;
+	top: 206px;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background: #293b8e;
+	color: white;
+	padding: 2rem 1rem 1rem;
+	z-index: 100;
+	display: block;
+}
+
+nav > ul > li {
+	margin-left: 0;
+}
+
+nav > ul a {
+	display: block;
+	padding: 0 0 1rem;
+	margin: 0 0 1rem;
+	border-bottom: 1px solid white;
+}
+
+.menu-toggle {
+	display: block;
+}
+
+main{
+	padding: 3rem 1rem;
+}
+
+hero .button {
+	display: none;
+}
+
+.home h1 {
+	font-size: 2.5rem;
+}
+
+.home h2 {
+	font-size: 1.75rem;
+}
+
+header {
+	padding: 2rem 1rem;
+}
+
+.footer-logo {
+	order: 1;
+}
+
+.copyright {
+	order: 2;
+	margin: 0 0 3rem;
+}
